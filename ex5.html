@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css units</title>
+  </head>
+  <style>
+    html {
+      font-size: 32px;
+    }
+    div {
+      font-size: 15rem;
+      border: 1px solid black;
+    }
+    #top-div {
+      font-size: 25rem;
+      border: 1px solid red;
+    }
+  </style>
+  <body>
+    <p>The font-size of this document is 16px</p>
+    <div id="top-div">
+      The font-size of this div elemnt is 2rem,which translates to 2 x the
+      brwosers font size.
+      <div>
+        the font-size of the element is 3rem.it also shows thatr it does not
+        inherit form its parant elemn font-size
+      </div>
+    </div>
+    <p>
+      the rem unit sets the font-size relative to the broswers base font-size
+      and will inherit from its parents
+    </p>
+  </body>
+</html>
